@@ -27,6 +27,7 @@ pip install -r requirements.txt
 If PowerShell blocks activation, run commands through the venv Python directly:
 
 ```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
 .\.venv\Scripts\python.exe app.py
 ```
 
@@ -78,6 +79,12 @@ Windows:
 python generate_density_gifs.py
 ```
 
+Without activating the venv:
+
+```powershell
+.\.venv\Scripts\python.exe generate_density_gifs.py
+```
+
 Linux/macOS:
 
 ```bash
@@ -86,4 +93,3 @@ python generate_density_gifs.py
 ```
 
 This creates intermediate files in `output/` and refreshes the GIFs in `assets/`.
-

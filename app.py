@@ -55,7 +55,7 @@ def load_and_tidy_data(path):
 
 metrics_long, sectors_long, countries, years = load_and_tidy_data(DATA_FILE)
 
-default_countries = [c for c in ["Spain and Andorra", "France", "Germany"] if c in countries]
+default_countries = [c for c in ["Spain and Andorra", "France and Monaco", "Germany"] if c in countries]
 if not default_countries:
     default_countries = countries[:3]
 
