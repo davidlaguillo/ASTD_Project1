@@ -1,0 +1,7 @@
+dash
+imageio
+kaleido
+numpy
+openpyxl
+pandas
+plotly
